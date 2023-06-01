@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": ".venv/bin/python",
+    "python.linting.pylintPath": ".venv/bin/pylint",
+    "python.linting.pylintArgs": [
+        "--init-hook",
+        "import sys, os; sys.path.insert(0, os.path.join('src', 'foo'))"
+    ]
+}
