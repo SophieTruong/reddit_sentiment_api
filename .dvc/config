@@ -1,6 +1,6 @@
 [core]
     remote = storage
-['remote "storage"']
-    url = azure://reddit-suomi-setfit-v0/
 ['remote "azure"']
-    url = azure://reddit-suomi-setfit-v0/https://mlmodelstorev0.blob.core.windows.net/reddit-suomi-setfit-v0
+    url = azure://reddit-suomi-setfit-v0/
+    sas_token = sp=r&st=2023-06-01T09:07:17Z&se=2023-06-08T17:07:17Z&sv=2022-11-02&sr=c&sig=%2FDTiC0zPjMzhnm2zZmv5Mi8EiAIbzIar4RN%2FmDe98aQ%3D #read-only
+    account_name = mlmodelstorev0
