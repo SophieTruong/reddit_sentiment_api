@@ -33,6 +33,7 @@ def index():
                 'sentiment': inference_translated,
                 'created_at': datetime.datetime.now()
             }
+            print(data)
             save_to_db([data])
             return jsonify(data)
         # Server error handling
