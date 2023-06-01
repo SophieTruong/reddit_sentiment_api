@@ -1,0 +1,10 @@
+azure_storage==0.36.0
+Flask==2.3.2
+Flask_Cors==3.0.10
+pandas==2.0.2
+python-dotenv==1.0.0
+uuid6==2023.5.2
+setfit==0.7.0
+transformers==4.29.2
+gunicorn==20.1.0
+azure-identity==1.13.0

@@ -1,0 +1,16 @@
+# comment
+Dockerfile
+db.csv
+
+bash
+
+**/.venv
+**/__pycache__
+*.pyc
+**/pip-log.txt
+**/.cache
+**/*.log
+**/.git
+**/.mypy_cache
+**/.pytest_cache
+**/.vscode

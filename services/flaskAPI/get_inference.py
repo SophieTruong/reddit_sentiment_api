@@ -2,7 +2,7 @@
 from typing import List
 import pickle
 
-sf = pickle.load(open('setfit-reddit-suomi-2022-2023.pickle', 'rb'))
+sf = pickle.load(open('setfit-reddit-suomi-2022-2023.pkl', 'rb'))
 
 print(sf)
 
