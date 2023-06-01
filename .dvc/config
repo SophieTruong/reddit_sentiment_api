@@ -1,0 +1,6 @@
+[core]
+    remote = storage
+['remote "storage"']
+    url = azure://reddit-suomi-setfit-v0/
+['remote "azure"']
+    url = azure://reddit-suomi-setfit-v0/https://mlmodelstorev0.blob.core.windows.net/reddit-suomi-setfit-v0
